@@ -1,25 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HookCounter1 from './components/HookCounter1';
 
 function App() {
+
+  useEffect(() => {
+    console.log("USE EFFECT CALLED ap");
+    
+    
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://www.google.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div>
+  <HookCounter1></HookCounter1>
+  </div>
   );
 }
 

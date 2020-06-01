@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HookCounter1 from './components/HookCounter1';
+import Hooktounter2 from './components/HookCounter2';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
   })
   return (
   <div>
-  <HookCounter1></HookCounter1>
+  
+  <Hooktounter2></Hooktounter2>
   </div>
   );
 }
